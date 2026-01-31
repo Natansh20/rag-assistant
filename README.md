@@ -56,6 +56,12 @@ python app.py
 
 Then open the provided local URL in your browser and start asking questions.
 
+---
+
+## Usage Demo
+
+https://youtu.be/BePgjtI-Wvw
+
 ## Notes
 
 FAISS is used for local prototyping due to its simplicity and speed. The vector store layer is modular and can be replaced with production-grade systems such as Qdrant or Pinecone without changing the core RAG pipeline.
