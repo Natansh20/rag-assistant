@@ -32,14 +32,23 @@ PDFs → Chunking → Embeddings → FAISS → Retrieval → LLM → Answer
 pip install -r requirements.txt
 ```
 
-### 2. Add PDF documents
+### 2. Environment Variables
+
+This project requires an OpenAI API key.
+
+Create a `.env` file in the project root with:
+```env
+OPENAI_API_KEY=your_api_key
+```
+
+### 3. Add PDF documents
 
 Place your PDF files inside:
 ```bash
 data/docs/
 ```
 
-### 3. Ingest documents
+### 4. Ingest documents
 ```bash
 python ingest.py
 ```
