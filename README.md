@@ -60,7 +60,8 @@ Then open the provided local URL in your browser and start asking questions.
 
 ## Usage Demo
 
-https://youtu.be/BePgjtI-Wvw
+https://github.com/user-attachments/assets/58141d56-0ebb-4eea-9124-f40538547291
+
 
 ## Notes
 
