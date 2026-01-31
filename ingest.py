@@ -24,7 +24,7 @@ def ingest():
     splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
     chunks = splitter.split_documents(documents)
 
-    embeddings = OpenAIEmbeddings()
+    embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
     db = FAISS.from_documents(chunks, embeddings)
     db.save_local(DB_PATH)
 

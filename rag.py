@@ -11,8 +11,8 @@ load_dotenv()
 
 DB_PATH = "vectorstore"
 
-llm = ChatOpenAI(temperature=0)
-embeddings = OpenAIEmbeddings()
+llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 db = FAISS.load_local(DB_PATH, embeddings, allow_dangerous_deserialization=True)
 
 rewrite_prompt = PromptTemplate.from_template(QUERY_REWRITE_PROMPT)
