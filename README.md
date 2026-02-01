@@ -69,7 +69,7 @@ Then open the provided local URL in your browser and start asking questions.
 
 ## Usage Demo
 
-https://github.com/user-attachments/assets/58141d56-0ebb-4eea-9124-f40538547291
+https://github.com/user-attachments/assets/33755449-64bb-4973-b583-2d9c42f87bec
 
 
 ## Notes
